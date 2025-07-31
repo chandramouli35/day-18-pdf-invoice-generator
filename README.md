@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Day 18 – Dynamic PDF Invoice Generator with Export, Signature & QR Code
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is part of my 150-day developer preparation journey, focused on building deliverables that feel like real product features. On Day 18, I built a fully functional PDF generator using React — converting user form input into a styled invoice layout and allowing export as a downloadable PDF.
 
-## Available Scripts
+## ✅ What I Practiced:
+- JSX-based invoice layout with tailwind styling  
+- Form input for client name, address, items, totals  
+- PDF conversion using `jsPDF` or `html2pdf.js`  
+- Controlled export via button trigger  
+- Signature canvas for user acknowledgment  
+- QR code embed for invoice ID or payment URL  
+- Tailwind layout optimized for print formats
 
-In the project directory, you can run:
+## 🧠 Key Concepts Covered:
+- Client-side PDF rendering from HTML/JSX  
+- Form handling and state management  
+- Custom layout design for headers, rows, totals  
+- Triggering export/download with precision  
+- Canvas signature capture  
+- QR code rendering with dynamic value
 
-### `npm start`
+## 🛠 Features:
+- Form captures invoice data (name, items, amount, etc.)  
+- Styled layout preview resembling formal invoice  
+- PDF export on button click  
+- Optional features: signature canvas, QR code embed  
+- Toast feedback or download confirmation  
+- Theme control and print-friendly layout options
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚙️ Tech Stack:
+- React.js (Hooks + JSX)  
+- Tailwind CSS  
+- jsPDF or html2pdf.js  
+- react-signature-canvas (optional)  
+- react-qr-code (optional)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔥 Why This Matters:
+Invoices, offer letters, statements — every product eventually needs clean, exportable PDFs. This build simulates what actual platforms deliver across HR, legal, finance, and operations. Designing for print isn’t just formatting — it’s trust and clarity.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Day 18 complete. From input form to export-ready document — this is product logic, not a demo.
